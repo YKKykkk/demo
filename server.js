@@ -12,6 +12,10 @@ app.get('/person', (request, response) => {
   })
 })
 
+app.post('/test', () => {
+  
+})
+
 app.listen(5005, (err) => {
   if (!err) console.log('服务器启动成功了！')
 
